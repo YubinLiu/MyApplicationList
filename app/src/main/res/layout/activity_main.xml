@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplicationlist.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        android:text="@string/nano_degree"
+        android:textSize="25sp"
+        android:textColor="#7d7d7d"/>
+
+    <Button
+        android:id="@+id/hot_film"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="#e64308"
+        android:text="@string/hot_film"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/stock_eagle"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="#e64308"
+        android:text="@string/stock_eagle"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/xyz_reader"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="#e64308"
+        android:text="@string/xyz_reader"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/newest"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="#e64308"
+        android:text="@string/newest"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/graduation_project"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="#b40009"
+        android:text="@string/graduation_project"
+        android:textSize="25sp"
+        android:textColor="#fff"/>
+
+</LinearLayout>
