@@ -8,4 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="OrangeButton" parent="android:Widget.Button">
+        <item name="android:background">@color/colorButtonBackgroundOrange</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="RedButton" parent="android:Widget.Button">
+        <item name="android:background">@color/colorButtonBackgroundRed</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
 </resources>

@@ -19,53 +19,27 @@
 
     <Button
         android:id="@+id/hot_film"
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="15dp"
-        android:background="#e64308"
-        android:text="@string/hot_film"
-        android:textSize="25sp" />
+        style="@style/OrangeButton"
+        android:text="@string/hot_film" />
 
     <Button
         android:id="@+id/stock_eagle"
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="15dp"
-        android:background="#e64308"
-        android:text="@string/stock_eagle"
-        android:textSize="25sp" />
+        style="@style/OrangeButton"
+        android:text="@string/stock_eagle" />
 
     <Button
         android:id="@+id/xyz_reader"
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="15dp"
-        android:background="#e64308"
-        android:text="@string/xyz_reader"
-        android:textSize="25sp" />
+        style="@style/OrangeButton"
+        android:text="@string/xyz_reader" />
 
     <Button
         android:id="@+id/newest"
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="15dp"
-        android:background="#e64308"
-        android:text="@string/newest"
-        android:textSize="25sp" />
+        style="@style/OrangeButton"
+        android:text="@string/newest" />
 
     <Button
         android:id="@+id/graduation_project"
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="15dp"
-        android:background="#b40009"
-        android:text="@string/graduation_project"
-        android:textSize="25sp"
-        android:textColor="#fff"/>
+        style="@style/RedButton"
+        android:text="@string/graduation_project" />
 
 </LinearLayout>
